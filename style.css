@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF9E6; /* Light pastel yellow */
+    color: #4D4D4D; /* Dark gray for text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #FFEB99; /* Soft pastel yellow background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #F7C600; /* A warmer yellow shade */
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #F7C600;
+    background-color: #FFF3B0; /* Soft pastel yellow */
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #F7C600; /* Pastel yellow */
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #F6A800; /* Slightly darker yellow for hover effect */
+}
+
+a {
+    color: #F7C600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #F6A800;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#todo-list li {
+    background-color: #FFF3B0; /* Light pastel yellow */
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todo-list li button {
+    background-color: #FF6F61; /* Coral red for delete button */
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#todo-list li button:hover {
+    background-color: #E84B3C; /* Darker coral red for hover effect */
+}
+
+#auth-section, #todo-section {
+    width: 100%;
+}
+
+input[type="text"], input[type="password"] {
+    box-sizing: border-box;
+}
+
+#todo-section {
+    display: none;
+}
